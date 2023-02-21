@@ -15,20 +15,14 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-	"Scaffold svelte component": {
+	"Create script tag with language set to ts": {
 		"scope": "svelte",
-		"prefix": "s-component",
+		"prefix": "script-ts",
 		"body": [
 			"<script lang=\"ts\">",
 			"  export let name;",
-			"</script>",
-			"",
-			"<h1>Hello {$name}!</h1>",
-			"",
-			"<style>",
-			"",
-			"</style>"
+			"</script>"
 		],
-		"description": "Scaffolds out a svelte component setting up the script tag with lang=\"ts\""
+		"description": "Scaffolds out a script tag with lang=\"ts\""
 	}
 }
